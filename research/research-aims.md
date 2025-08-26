@@ -15,7 +15,7 @@ Prenatal exposures to weather disasters greatly increase the risks of diseases l
 
 Our lab is conducting a global birth cohort study to investigate the maternal sources, early assembly, and environmental influences on the infant nasal microbiome.
 
-!["Source of nasal microbiome."](/assets/research/nasal.jpg)
+!["Source of nasal microbiome."](/assets/research/nasal.png)
 
 Current studies have primarily focused on the infant gut microbiome, studies to investigate the infant nasal microbiome have been much less. Further, current research on the infant nasal microbiome has primarily been conducted in developed countries and regions and are seldomly found in the developing regions. This is critical research disparities in this field. We established a longitudinal birth cohort with mother-infant dyads globally at three research sites: Barnes-Jewish Hospital in St. Louis, United States, San Juan City Hospital in San Juan, Puerto Rico, and University of Ghana Medical Center in Accra, Ghana. Utilizing this cohort, we will be able to investigate the maternal sources of initial nasal microbiome and their assembly in early infancy. We will also measure prenatal and postnatal environmental exposures and examine their impacts on the microbial colonization and development in the infant nose. 
 
