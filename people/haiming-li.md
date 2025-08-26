@@ -3,7 +3,7 @@ layout: person
 name: "Haiming Li"
 image: "/assets/people/haiming-li.png"
 title: "Overseas visiting student"
-category: "Postdocs"
+category: "Visiting Student"
 links:
   - link: "2022323333@yonsei.ac.kr"
     icon: "email"
