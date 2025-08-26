@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: ["main"]
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  pages: write
+
 jobs:
   build:
     runs-on: ubuntu-latest

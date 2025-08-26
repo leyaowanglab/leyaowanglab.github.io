@@ -1,6 +1,6 @@
 # [Leyao Wang Lab Website](https://leyaowanglab.smart.org.cn/)
 
-This repository contains the code the Leyao Wang Lab's [public website](https://leyaowanglab.smart.org.cn/). The website is based on a custom [VitePress](https://vitepress.dev/guide/what-is-vitepress) theme and the source code from the [Jesse Bloom Lab](https://github.com/jbloomlab/jbloomlab.github.io). We are appericated to their open source works.
+This repository contains the code the Leyao Wang Lab's [public website](https://leyaowanglab.smart.org.cn/). The website is based on a custom [VitePress](https://vitepress.dev/guide/what-is-vitepress) theme and the source code from the [Jesse Bloom Lab](https://github.com/jbloomlab/jbloomlab.github.io). We are very appericated to their open source works.
 
 Contributions to the website are made by writing markdown documents and editing YAML and JSON configuration files.
 
