@@ -14,13 +14,13 @@ export default defineConfig({
           "Leyao Wang, Leyao Wang Lab, Shenzhen Medical Academy of Research and Translation, Impact of extreme weather events on the Infant Microbiome, Sources and assembly of nasal microbiome in early life on a global scale, The airway microbiome in lung infections and diseases",
       },
     ],
-    //[
-    //  "link",
-    //  {
-    //    rel: "icon",
-    //    href: "/images/icon.png",
-    //  },
-    //],
+    [
+      "link",
+      {
+        rel: "icon",
+        href: "/images/smart.png",
+      },
+    ],
     [
       "link",
       {
