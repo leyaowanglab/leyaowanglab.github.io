@@ -21,10 +21,10 @@ export default {
         <div class="pt-6 pb-8 space-y-2 md:space-y-5">
             <h1
                 class="text-3xl leading-9 font-bold text-gray-800 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-                Bloom Lab Blog
+                Leyao Wang Lab Blog/News
             </h1>
             <p class="text-lg leading-7 text-gray-600">
-                A collection of thoughts, ideas, and projects from the Bloom Lab team.
+                A collection of thoughts, ideas, and projects from the Leyao Wang Lab team.
             </p>
         </div>
         <ul class="divide-y divide-gray-200">

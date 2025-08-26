@@ -62,7 +62,7 @@ export default {
                 Papers
             </h1>
             <p class="text-xl leading-8 text-gray-800">
-                Papers from the Bloom Lab team. See also <a
+                Papers from the Leyao Wang Lab team. See also <a
                     href="https://scholar.google.com/citations?user=S12x_eQAAAAJ&hl" target="_blank">Google Scholar</a>
                 for a complete
                 list of publications.
