@@ -10,8 +10,12 @@ export default {
     data() {
         const categorizedData = this.categorizeMembers(people);
         const alumniByCategory = this.categorizeAlumni(alumni);
+        let categories = Object.keys(categorizedData);
+        // Move 'Principal Investigator' to the top if it exists
+        categories = categories.filter(c => c !== 'Principal Investigator');
+        categories.unshift('Principal Investigator');
         return {
-            categories: (Object.keys(categorizedData)).sort(),
+            categories,
             membersByCategory: categorizedData,
             alumniCategories: alumniByCategory
         };

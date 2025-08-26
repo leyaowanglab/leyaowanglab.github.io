@@ -3,7 +3,7 @@ layout: person
 name: "Leyao Wang (PhD,MPH)"
 image: "/assets/people/leyao-wang.png"
 title: "Principal Investigator"
-category: "Staff"
+category: "Principal Investigator"
 links:
   - link: "https://github.com/leyaowanglab"
     icon: "github"
