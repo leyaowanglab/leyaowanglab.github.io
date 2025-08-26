@@ -1,0 +1,5 @@
+name: leyaowanglab.github.io
+channels:
+  - conda-forge
+dependencies:
+  - nodejs
