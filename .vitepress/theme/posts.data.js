@@ -8,6 +8,7 @@ export default createContentLoader("posts/*.md", {
         title: frontmatter.title,
         author: frontmatter.author,
         date: frontmatter.date,
+        image: frontmatter.image,
         excerpt,
         url,
       }))
