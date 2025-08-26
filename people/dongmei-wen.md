@@ -10,11 +10,11 @@ links:
 ---
 
 
-**Introduction**:  
+### Introduction
 
-As a research assistant in the LeYao Research Group, I have a strong interest and ongoing exploration especially in the field of research on the association between microorganisms and asthma. In my daily work, I actively participate in the research tasks of the research group, including microbial isolation and culture, animal model establishment, and inflammatory factor detection. 
+As a research assistant in the Leyao Wang Lab, I have a strong interest and ongoing exploration especially in the field of research on the association between microorganisms and asthma. In my daily work, I actively participate in the research tasks of the research group, including microbial isolation and culture, animal model establishment, and inflammatory factor detection.
 
-**Research field**:  
+### Research Fields
 
-Microorganisms  
-Asthma  
+- Microorganisms
+- Asthma
