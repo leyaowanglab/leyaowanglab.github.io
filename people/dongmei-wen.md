@@ -2,7 +2,7 @@
 layout: person
 name: "Dongmei Wen"
 image: "/assets/people/dongmei-wen.png"
-title: "Biological research assistant"
+title: "Biological Research Assistant"
 category: "Staff"
 links:
   - link: "wendongmei@smart.org.cn"

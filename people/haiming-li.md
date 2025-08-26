@@ -2,7 +2,7 @@
 layout: person
 name: "Haiming Li"
 image: "/assets/people/haiming-li.png"
-title: "Overseas visiting student"
+title: "Overseas Visiting Student"
 category: "Visiting Student"
 links:
   - link: "2022323333@yonsei.ac.kr"

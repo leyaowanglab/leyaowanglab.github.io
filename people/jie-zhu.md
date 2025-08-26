@@ -2,7 +2,7 @@
 layout: person
 name: "Jie Zhu"
 image: "/assets/people/jie-zhu.png"
-title: "Bioinformatics research assistant"
+title: "Bioinformatics Research Assistant"
 category: "Staff"
 links:
   - link: "https://github.com/alienzj"

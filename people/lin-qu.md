@@ -5,7 +5,7 @@ image: "/assets/people/lin-qu.png"
 title: "Public Health Research Assistant"
 category: "Staff"
 links:
-  - link: "https://github.com/timcyu"
+  - link: "https://github.com/quinny70"
     icon: "github"
   - link: "qulin@smart.org.cn"
     icon: "email"
