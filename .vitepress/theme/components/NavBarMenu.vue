@@ -21,6 +21,7 @@ export default {
             { text: 'Papers', href: '/papers/', active: currentPath.value.startsWith('papers/') },
             { text: 'Team', href: '/people/', active: currentPath.value.startsWith('people/') },
             { text: 'Software', href: '/projects/', active: currentPath.value.startsWith('projects/') },
+            { text: 'Join Us', href: '/join/', active: currentPath.value.startsWith('join/') },
         ]);
 
         return { menuItems };
