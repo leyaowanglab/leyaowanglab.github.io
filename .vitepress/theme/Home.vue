@@ -47,11 +47,10 @@ export default {
 <template>
     <div class="mx-auto max-w-4xl px-4 text-left flex flex-col">
         <div class="flex-grow">
-            <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-gray-800 select-none">
+            <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-gray-800 select-none mb-8">
                 Welcome to the <span class="block font-bold">Leyao Wang Lab</span>
             </h1>
             <p class="text-xl md:text-2xl lg:text-3xl text-gray-600 mt-2 lg:mt-4 select-none">
-                
                 Leyao Wang lab focuses on human microbiome and diseases:
                 <transition name="fade" mode="out-in">
                     <span :key="currentMeta" class="italic"
@@ -59,17 +58,27 @@ export default {
                         currentMeta }}</span>
                 </transition>
             </p>
-            <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-4 md:mt-6 lg:mt-12">
-                In the <strong>Leyao Wang lab</strong>, we integrated
-                microbiology, immunology, and molecular biology with public health to understand
-                how host-microbe interactions impact human health.
+            <div class="w-full flex flex-col items-center mb-4 mt-8">
+                <img src="/assets/people/team.png" alt="Team Photo" class="rounded-lg shadow-lg border border-gray-300 max-w-full h-auto" style="max-width: 700px; max-height: 500px; width: 100%; object-fit: cover;" />
+            </div>
+            <div class="w-full flex justify-center mb-0">
+                <div style="background: rgba(255,255,255,0.85); padding: 6px 18px; border-radius: 8px; font-size: 1rem; color: #374151; font-weight: 500; box-shadow: 0 2px 8px rgba(0,0,0,0.08); text-align: center;">
+                    Our Team at Leyao Wang Lab
+                </div>
+            </div>
+            
+            <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-4 md:mt-6 lg:mt-5">
+                In the <strong>Leyao Wang lab</strong>, we integrated microbiology, immunology, 
+                and molecular biology with public health to understand how host-microbe 
+                interactions impact human health.
             </p>
             <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-6">
-                Our lab is part of the <a href="https://smart.org.cn/en/">
-                    Institute of Human Immunology at the Shenzhen Medical Academy of Research and Translation (SMART)</a>
+                Our lab is part of the <a href="https://smart.org.cn/en/">Institute of Human 
+                Immunology at the Shenzhen Medical Academy of Research and Translation (SMART)</a>
                 and is affiliated with the Microbiome Science program of SMART.
                 Graduate students are typically recruited through the
-                <a href="https://smart.org.cn/en/Education-and-Exchanges/Edu/Graduate/Study/Training-Program/index.html">SMART PhD program</a>.
+                <a href="https://smart.org.cn/en/Education-and-Exchanges/Edu/Graduate/Study/Training-Program/index.html">
+                SMART PhD program</a>.
 
                 Dr. Leyao Wang is a Principal Investigator at SMART.
             </p>
