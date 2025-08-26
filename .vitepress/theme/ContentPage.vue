@@ -28,6 +28,8 @@ export default {
                 return 'Project';
             } else if (this.frontmatter.layout == "person") {
                 return 'Person';
+            } else if (this.frontmatter.layout == "join") {
+                return 'Join';
             } else {
                 return 'Post';
             }

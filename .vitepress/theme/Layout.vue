@@ -10,6 +10,7 @@ import ContentPage from './ContentPage.vue'
 import Nav from './components/Nav.vue'
 import Footer from './components/Footer.vue'
 import Research from './Research.vue';
+import Join from './Join.vue';
 
 const { page, frontmatter } = useData()
 </script>
@@ -26,9 +27,10 @@ const { page, frontmatter } = useData()
       <Team v-else-if="frontmatter.team" />
       <Software v-else-if="frontmatter.software" />
       <Research v-else-if="frontmatter.research" />
-      <NotFound v-else-if="page.isNotFound" />
-      <!-- Render an content page -->
-      <ContentPage v-else />
+  <Join v-else-if="frontmatter.layout === 'join'" />
+  <NotFound v-else-if="page.isNotFound" />
+  <!-- Render an content page -->
+  <ContentPage v-else />
     </main>
     <Footer></Footer>
   </div>
