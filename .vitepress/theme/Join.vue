@@ -19,6 +19,14 @@
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
 }
+.join-content .join-highlight {
+    font-size: 1.7rem;
+    color: #1f2937;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
 .join-content .join-welcome {
     font-size: 1.5rem;
     color: #374151;
@@ -51,5 +59,18 @@
     padding-left: 1.5rem;
     font-size: 1.1rem;
     color: #374151;
+}
+.join-content .join-section {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    padding: 0.5rem 0;
+    background: #f9fafb;
+    border-radius: 8px;
+}
+.join-content .join-section strong {
+    display: block;
+    font-size: 1.15rem;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
 }
 </style>
