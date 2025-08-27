@@ -24,6 +24,7 @@ keywords:
     - "Infant gut microbiome"
     - "Prenatal exposure"
     - "Puerto Rico"
+selected: true
 ---
 
 ## Abstract
