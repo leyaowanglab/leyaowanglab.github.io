@@ -1,0 +1,29 @@
+---
+layout: paper
+title: "Infants exposed in utero to Hurricane Maria have gut microbiomes with reduced diversity and altered metabolic capacity"
+date: "2023-09-27"
+authors: 
+     - "Ai Zhang"
+     - "David de Ángel Solá"
+     - "Midnela Acevedo Flores"
+     - "Lijuan Cao"
+     - "Leran Wang"
+     - "Josh G. Kim"
+     - "Phillip I. Tarr"
+     - "Barbara B. Warner"
+     - "Nicolás Rosario Matos"
+     - "Leyao Wang"
+journal: "mSphere"
+doi: "10.1128/msphere.00134-23"
+link: "https://journals.asm.org/doi/10.1128/msphere.00134-23"
+image: "/assets/papers/2023_aizhang.jpg"
+keywords:
+    - "HOLA"
+    - "Gut microbiome"
+selected: true
+---
+
+
+## Abstract
+
+The gut microbiome is a potentially important mechanism that links prenatal disaster exposures with increased disease risks. However, whether prenatal disaster exposures are associated with alterations in the infant’s gut microbiome remains unknown. We established a birth cohort study named Hurricane as the Origin of Later Alterations in Microbiome (HOLA) after Hurricane Maria struck Puerto Rico in 2017. We enrolled vaginally born Latino term infants aged 2 to 6 months, including n = 29 infants who were exposed in utero to Hurricane Maria in Puerto Rico and n = 34 infants who were conceived at least 5 months after the hurricane as controls. Shotgun metagenomic sequencing was performed on infant stool swabs. Infants exposed in utero to Hurricane Maria had a reduced diversity in their gut microbiome compared to the control infants, which was mainly seen in the exclusively formula-fed group (P = 0.02). Four bacterial species, including Bacteroides vulgatus, Clostridium innocuum, Bifidobacterium pseudocatenulatum, and Clostridium neonatale, were depleted in the exposure group compared to the control group. Compositional differences in the microbial community and metabolic genes between the exposure and control groups were significant, which were driven by the formula feeding group (P = 0.02 for the microbial community and P = 0.008 for the metabolic genes). Metabolic modules involved in carbohydrate metabolism were reduced in the exposure group. Prenatal maternal exposure to Hurricane Maria was associated with a reduced gut commensal and an altered microbial composition and metabolic potential in the offspring’s gut. Breastfeeding can adjust the composition of the gut microbiomes of exposed infants.

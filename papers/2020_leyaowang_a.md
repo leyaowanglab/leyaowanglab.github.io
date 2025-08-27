@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Sex effects in the association between airway microbiome and asthma "
+title: "Sex effects in the association between airway microbiome and asthma"
 date: "2020-09-04"
 authors: 
     - "Renjin Chen"
