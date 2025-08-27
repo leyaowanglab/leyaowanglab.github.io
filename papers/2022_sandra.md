@@ -21,8 +21,11 @@ image: "/assets/papers/2022_sandra.jpg"
 keywords:
     - "Hurricane Maria"
     - "Nasal microbiome"
+selected: true
 ---
 
+
+## Abstract
 
 Prenatal adverse exposures have been associated with increased risks of development of respiratory diseases in children. The infant nasal microbiome is an important mechanism and indicator.
 
