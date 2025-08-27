@@ -3,17 +3,17 @@ layout: paper
 title: "Prenatal food insecurity post Hurricane Maria is associated with decreased Veillonella in the infant gut"
 date: "2020-03-14"
 authors: 
-    - Leyao Wang
-    - David de Ángel Solá
-    - Midnela Acevedo Flores
-    - Andrew Schriefer
-    - Leran Wang
-    - Kamil Gerónimo López
-    - Alison Chang
-    - Barbara Warner
-    - Liang Shan
-    - Lori R Holtz
-    - Nicolás Rosario Matos
+    - "Leyao Wang"
+    - "David de Ángel Solá"
+    - "Midnela Acevedo Flores"
+    - "Andrew Schriefer"
+    - "Leran Wang"
+    - "Kamil Gerónimo López"
+    - "Alison Chang"
+    - "Barbara Warner"
+    - "Liang Shan"
+    - "Lori R Holtz"
+    - "Nicolás Rosario Matos"
 journal: "Pediatric Research"
 doi: "10.1038/s41390-020-0839-0"
 link: "https://www.nature.com/articles/s41390-020-0839-0"
