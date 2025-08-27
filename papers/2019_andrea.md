@@ -16,7 +16,6 @@ keywords:
     - "Bocavirus"
     - "Influenza virus"
     - "Wheezing"
-    - "Asthma"
 ---
 
 ## Abstract
