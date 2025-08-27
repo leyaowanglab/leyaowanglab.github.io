@@ -3,13 +3,35 @@ title: Our Research
 isAim: true
 ---
 
+# Current Research
+
+## Maternal–Infant Microbiome Transmission  
+
+!["Maternal-Infant Microbiome Transmission"](/assets/research/transmission.webp)  
+
+We study global birth cohorts with longitudinal follow-up to understand how beneficial microbial communities are passed across generations. Our work explores how maternal sources, including microbial reservoirs and physiology, shape early colonization in infants. We also investigate how environmental exposures, such as diet, geography, and lifestyle, influence these developing ecosystems. Together, these efforts reveal the processes driving the early assembly of the infant microbiome, particularly in the nasal and gut.
+
+## Environmental Impacts on the Microbiome
+
+!["HOLA"](/assets/research/HOLA.webp)
+
+We investigate how environmental changes, ranging from climate-driven extreme weather events to immune and inflammatory processes, reshape the human microbiome. Through our Hurricane as the Origin of Later Alterations in Microbiome (HOLA) study in Puerto Rico, we examine the impact of prenatal exposure to Hurricane Maria on infant microbiome development. This work further explores how such early-life disruptions may increase the risk of asthma and other chronic diseases.
+
+## Microbiome and Respiratory Disease
+
+!["Asthma"](/assets/research/asthma.webp)
+
+We investigate how airway microbial communities contribute to asthma and other lung diseases. Using innovative study designs, such as sibling comparisons and population-based asthma cohorts, we identify microbial features linked to disease risk. To probe mechanisms, we developed a 3D airway organoid viral infection model, enabling us to examine bacteria–virus interactions—particularly with RSV and rhinovirus—that drive inflammation and asthma exacerbations.
+
+# Past Research
+
 ## Impact of extreme weather events on the Infant Microbiome
 
 Our lab is exploring how prenatal exposure to extreme weather events may disrupt infant microbiome development and affect long-term health.
 
 !["Catchment region of the HOLA cohort study in San Juan, Puerto Rico."](/assets/research/hola.png)
 
-Prenatal exposures to weather disasters greatly increase the risks of diseases later in life, such as asthma. These disaster-related environmental and psychological stressors may influence the human microbiome at early life and result in disturbed metabolic and immune systems. However, we still lack evidence on these important mechanisms. We have been leading a birth cohort study named Hurricane as the Origin of Later Alterations in Microbiome (HOLA) in San Juan, Puerto Rico with our collaborators in the San Juan City Hospital Research Unit and University of Puerto Rico. In this study, we recruited infants who were exposed in utero to Hurricane Maria (a category 4 storm struck Puerto Rico in late September 2017) and infants who were conceived at least 5 months after the Hurricane as controls. We are characterizing and comparing the infant nasal and gut microbiome between the two groups. 
+Prenatal exposures to weather disasters greatly increase the risks of diseases later in life, such as asthma. These disaster-related environmental and psychological stressors may influence the human microbiome at early life and result in disturbed metabolic and immune systems. However, we still lack evidence on these important mechanisms. We have been leading a birth cohort study named Hurricane as the Origin of Later Alterations in Microbiome (HOLA) in San Juan, Puerto Rico with our collaborators in the San Juan City Hospital Research Unit and University of Puerto Rico. In this study, we recruited infants who were exposed in utero to Hurricane Maria (a category 4 storm struck Puerto Rico in late September 2017) and infants who were conceived at least 5 months after the Hurricane as controls. We are characterizing and comparing the infant nasal and gut microbiome between the two groups.
 
 ## Sources and assembly of nasal microbiome in early life on a global scale
 
@@ -17,7 +39,7 @@ Our lab is conducting a global birth cohort study to investigate the maternal so
 
 !["Source of nasal microbiome."](/assets/research/nasal.png)
 
-Current studies have primarily focused on the infant gut microbiome, studies to investigate the infant nasal microbiome have been much less. Further, current research on the infant nasal microbiome has primarily been conducted in developed countries and regions and are seldomly found in the developing regions. This is critical research disparities in this field. We established a longitudinal birth cohort with mother-infant dyads globally at three research sites: Barnes-Jewish Hospital in St. Louis, United States, San Juan City Hospital in San Juan, Puerto Rico, and University of Ghana Medical Center in Accra, Ghana. Utilizing this cohort, we will be able to investigate the maternal sources of initial nasal microbiome and their assembly in early infancy. We will also measure prenatal and postnatal environmental exposures and examine their impacts on the microbial colonization and development in the infant nose. 
+Current studies have primarily focused on the infant gut microbiome, studies to investigate the infant nasal microbiome have been much less. Further, current research on the infant nasal microbiome has primarily been conducted in developed countries and regions and are seldomly found in the developing regions. This is critical research disparities in this field. We established a longitudinal birth cohort with mother-infant dyads globally at three research sites: Barnes-Jewish Hospital in St. Louis, United States, San Juan City Hospital in San Juan, Puerto Rico, and University of Ghana Medical Center in Accra, Ghana. Utilizing this cohort, we will be able to investigate the maternal sources of initial nasal microbiome and their assembly in early infancy. We will also measure prenatal and postnatal environmental exposures and examine their impacts on the microbial colonization and development in the infant nose.
 
 ## The airway microbiome in lung infections and diseases
 

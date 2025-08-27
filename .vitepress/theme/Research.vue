@@ -16,28 +16,70 @@ export default {
 }
 </script>
 
+
 <template>
-    <div class="mx-auto max-w-4xl divide-y divide-gray-200">
-        <div class="pt-6 pb-8 space-y-2 md:space-y-5">
-            <h1
-                class="text-3xl leading-9 font-bold text-gray-800 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-                {{ researchAim.title }}
-            </h1>
+    <div class="mx-auto max-w-4xl px-2 md:px-0">
+        <div class="pt-8 pb-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-gray-800 mb-2">{{ researchAim.title }}</h1>
+            <div class="h-1 w-16 mx-auto bg-custom-orange rounded mb-8"></div>
         </div>
-        <div class="research-aims pb-8" v-html="researchAim.html"></div>
+        <div class="space-y-12">
+            <div v-html="researchAim.html" class="research-aims"></div>
+        </div>
     </div>
 </template>
 
+
 <style>
-.research-aims p {
-    @apply text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-6;
+.research-aims h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
 }
-
-.research-aims img {
-    @apply mx-auto md:float-left md:mr-4 my-4 max-w-sm md:max-w-md;
-}
-
 .research-aims h2 {
-    @apply text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-4 md:mt-6 lg:mt-12 mb-2 select-none underline font-semibold !important;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #374151;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+.research-aims h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #4b5563;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.research-aims p {
+    font-size: 1.08rem;
+    color: #555;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+.research-aims img {
+    display: block;
+    margin: 1.5rem auto 0.5rem auto;
+    max-width: 480px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+.research-aims figcaption {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #888;
+    margin-bottom: 1.5rem;
+}
+.research-aims .research-section {
+    background: #f9fafb;
+    border-radius: 12px;
+    padding: 1.5rem 1.2rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.research-aims ul, .research-aims ol {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
 }
 </style>
