@@ -11,7 +11,7 @@ export default {
 <template>
     <a href="/" class="flex items-center no-underline" @click="handleTitleClick">
         <img src="/images/smart.png" alt="Logo" class="h-8 w-30 mr-5">
-        <span class="title text-lg font-bold text-custom-orange collapse sm:visible">Leyao Wang Lab</span>
+        <span class="title text-xl font-bold text-custom-orange collapse sm:visible">Leyao Wang Lab</span>
     </a>
 </template>
 

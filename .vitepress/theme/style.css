@@ -213,6 +213,23 @@ span.lang {
   @apply bg-gray-100 rounded text-sm text-custom-orange;
 }
 
+.text-custom-orange {
+  color: #BA0C2F
+}
+
+/*
+'washu-red': '#BA0C2F',
+'washu-green': '#215732',
+'washu-coral': '#FF6D6A',
+'washu-teal': '#007D8A',
+'washu-gold': '#F1B434',
+'washu-mint': '#B5E3D8',
+'washu-dark-red': '#971B2F',
+'washu-dark-green': '#13322B',
+'washu-cool-gray': '#D9D9D9',
+'washu-warm-gray': '#D7D2CB',
+*/
+
 .prose pre {
   @apply bg-gray-100 p-4 rounded text-sm;
 }
