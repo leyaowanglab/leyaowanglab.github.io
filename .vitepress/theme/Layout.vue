@@ -2,7 +2,7 @@
 import { Content, useData } from 'vitepress'
 import NotFound from './NotFound.vue'
 import Home from './Home.vue'
-import Blog from "./Blog.vue";
+import News from "./News.vue";
 import Team from "./Team.vue";
 import Papers from "./Papers.vue";
 import Software from "./Software.vue";
@@ -22,7 +22,7 @@ const { page, frontmatter } = useData()
       <!-- Render the Landing page -->
       <Home v-if="frontmatter.home" />
       <!-- Render an index page -->
-      <Blog v-else-if="frontmatter.blog" />
+      <News v-else-if="frontmatter.news" />
       <Papers v-else-if="frontmatter.papers" />
       <Team v-else-if="frontmatter.team" />
       <Software v-else-if="frontmatter.software" />

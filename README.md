@@ -66,7 +66,7 @@ The general file structure of this website is as follows:
 ├── README.md
 ├── people/ # <-------------- team members
 ├── papers/ # <-------------- papers
-├── posts/ # <-------------- blog posts
+├── posts/ # <-------------- news posts
 ├── projects/ # <-------------- projects and software
 ├── index.md
 ├── public/assets/ # <-------------- images (note that paths to this directory are simply /assets/)

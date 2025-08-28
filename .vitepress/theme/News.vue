@@ -38,10 +38,10 @@ export default {
         <div class="pt-6 pb-8 space-y-2 md:space-y-5">
             <h1
                 class="text-3xl leading-9 font-bold text-gray-800 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-                Leyao Wang Lab Blog/News
+                Leyao Wang Lab News
             </h1>
             <p class="text-lg leading-7 text-gray-600">
-                A collection of thoughts, ideas, and projects from the Leyao Wang Lab team.
+                A collection of news from the Leyao Wang Lab team.
             </p>
         </div>
         <ul class="divide-y divide-gray-200">
@@ -52,7 +52,7 @@ export default {
                         <div v-if="post.previewImage" class="mt-2">
                             <img
                                 :src="post.previewImage"
-                                alt="Blog preview image"
+                                alt="News preview image"
                                 class="rounded-lg shadow-md"
                                 style="width: 120px; height: auto; max-width: 120px; display: block;"
                             />

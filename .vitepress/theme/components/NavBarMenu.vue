@@ -17,10 +17,10 @@ export default {
 
         const menuItems = computed(() => [
             { text: 'Research', href: '/research/', active: currentPath.value.startsWith('research/') },
-            { text: 'Blog', href: '/posts/', active: currentPath.value.startsWith('posts/') },
             { text: 'Papers', href: '/papers/', active: currentPath.value.startsWith('papers/') },
             { text: 'Team', href: '/people/', active: currentPath.value.startsWith('people/') },
-            { text: 'Software', href: '/projects/', active: currentPath.value.startsWith('projects/') },
+            /*{ text: 'Software', href: '/projects/', active: currentPath.value.startsWith('projects/') },*/
+            { text: 'News', href: '/posts/', active: currentPath.value.startsWith('posts/') },
             { text: 'Join Us', href: '/join/', active: currentPath.value.startsWith('join/') },
         ]);
 
