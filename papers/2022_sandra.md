@@ -21,7 +21,6 @@ image: "/assets/papers/2022_sandra.jpg"
 keywords:
     - "Hurricane Maria"
     - "Nasal microbiome"
-selected: true
 ---
 
 
