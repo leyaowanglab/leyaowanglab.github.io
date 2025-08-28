@@ -79,8 +79,13 @@ export default {
             </div>
             <div v-for="alum in alumniCategories[title]" :key="alum.name" class="ml-4">
                 <div class="font-bold">{{ alum.name }}</div>
-                <div>{{ alum.start }} - {{ alum.end }}</div>
-                <div v-if="alum.currentPosition" v-html="alum.currentPosition"></div>
+                                <div v-if="alum.start || alum.end" class="text-gray-500">
+                                    <span v-if="alum.start">{{ alum.start }}</span>
+                                    <span v-if="alum.start && alum.end"> - </span>
+                                    <span v-if="alum.end">{{ alum.end }}</span>
+                                </div>
+                <div v-if="alum.position" class="text-gray-600">{{ alum.position }}</div>
+                <div v-else-if="alum.currentPosition" v-html="alum.currentPosition"></div>
             </div>
         </div>
     </div>
