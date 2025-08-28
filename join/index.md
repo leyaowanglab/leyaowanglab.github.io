@@ -13,20 +13,10 @@ We are looking for passionate researchers, students, and collaborators to join o
 <details>
 <summary><strong>Postdoctoral Positions</strong></summary>
 <div class="join-section">
-	<strong>Job Responsibilities</strong>
 	<ol>
 		<li>Conduct independent or collaborative research under the guidance of the principal investigator</li>
 		<li>Independently or assist in applying for domestic and international research projects and writing papers</li>
 		<li>Supervise student research work</li>
-	</ol>
-</div>
-<div class="join-section">
-	<strong>Qualifications</strong>
-	<ol>
-		<li>PhD in a relevant field (biology, microbiology, immunology, biochemistry, molecular biology, genomics, bioinformatics, biomedical engineering, public health)</li>
-		<li>High-quality first-author publications and ability to conduct independent research</li>
-		<li>Excellent English reading and writing skills</li>
-		<li>Strong communication and teamwork skills, academic integrity, and research passion</li>
 	</ol>
 </div>
 </details>
@@ -34,7 +24,6 @@ We are looking for passionate researchers, students, and collaborators to join o
 <details>
 <summary><strong>Doctoral Students</strong></summary>
 <div class="join-section">
-	<strong>Job Responsibilities</strong>
 	<ol>
 		<li>Independently conduct research projects under the guidance of a supervisor</li>
 		<li>Write research papers</li>
@@ -46,19 +35,10 @@ We are looking for passionate researchers, students, and collaborators to join o
 <details>
 <summary><strong>Research Assistant – Molecular Immunology Direction</strong></summary>
 <div class="join-section">
-	<strong>Job Responsibilities</strong>
 	<ol>
 		<li>Conduct research projects independently under the guidance of the research group leader</li>
 		<li>Write research papers</li>
 		<li>Assist the research group in completing grant applications and other research tasks</li>
-	</ol>
-</div>
-<div class="join-section">
-	<strong>Qualifications</strong>
-	<ol>
-		<li>Master's degree or higher; major in microbiology, immunology, virology, or related fields</li>
-		<li>Excellent communication skills</li>
-		<li>Ability to collaborate effectively</li>
 	</ol>
 </div>
 </details>
@@ -66,17 +46,8 @@ We are looking for passionate researchers, students, and collaborators to join o
 <details>
 <summary><strong>Research Assistant – Artificial Intelligence Direction</strong></summary>
 <div class="join-section">
-	<strong>Job Responsibilities</strong>
 	<ol>
 		<li>Develop and conduct research projects based on artificial intelligence (e.g., neural networks) in line with the research direction of the research group</li>
-	</ol>
-</div>
-<div class="join-section">
-	<strong>Qualifications</strong>
-	<ol>
-		<li>Bachelor's degree or higher, with experience in artificial intelligence-related fields of study and work</li>
-		<li>A strong understanding of and interest in the application of artificial intelligence in the biomedical field</li>
-		<li>Excellent collaboration and communication skills</li>
 	</ol>
 </div>
 </details>
@@ -85,8 +56,6 @@ We are looking for passionate researchers, students, and collaborators to join o
 ## How to Apply
 
 Please send your CV and a brief statement of interest to Dr. Leyao Wang at [wangleyao@smart.org.cn](mailto:wangleyao@smart.org.cn).
-
-For more information, visit our [SMART page](https://smart.org.cn/en/).
 
 ---
 
