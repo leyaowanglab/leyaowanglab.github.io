@@ -5,7 +5,7 @@ export default {
     data() {
         return {
             aims: aimsData,
-            meta: ["Early Life Microbiome", "Maternal Strain transmission", "Asthma", "Extreme Weather", "Lung Infections and Diseases"],
+            meta: ["Early Life Microbiome", "Maternal Strain Transmission", "Asthma", "Extreme Weather", "Lung Infections & Diseases"],
             currentMeta: 'Early Life Microbiome',
             metaIndex: -1,
             intervalId: null,
