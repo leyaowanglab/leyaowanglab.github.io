@@ -21,7 +21,7 @@ export default {
     <div class="mx-auto max-w-4xl px-2 md:px-0">
         <div class="pt-8 pb-8 text-center">
             <h1 class="text-4xl md:text-6xl font-bold text-gray-800 mb-2">{{ researchAim.title }}</h1>
-            <div class="h-1 w-16 mx-auto bg-custom-orange rounded mb-8"></div>
+            <div class="h-1 w-16 mx-auto bg-custom-orange rounded mb-1"></div>
         </div>
         <div class="space-y-12">
             <div v-html="researchAim.html" class="research-aims"></div>
