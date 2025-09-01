@@ -17,7 +17,8 @@ export default {
         return {
             categories,
             membersByCategory: categorizedData,
-            alumniCategories: alumniByCategory
+            alumniCategories: alumniByCategory,
+            alumni // expose alumni array to template
         };
     },
     methods: {
@@ -79,27 +80,13 @@ export default {
         class="text-3xl leading-9 font-bold text-gray-800 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 border-t border-gray-200 pt-10">
         Alumni
     </h1>
-        <div v-for="title in ['Postdoc', 'Graduate Student', 'Staff Member', 'Undergraduate Researcher', 'Visiting Student', 'Rotating Student']" :key="title">
-            <div class="alumni-section my-6">
-                <div class="pt-6 pb-8 space-y-2 md:space-y-5">
-                    <h1
-                        class="text-lg leading-9 font-bold text-gray-800 tracking-tight text-center md:text-left sm:text-2xl sm:leading-10 md:text-4xl md:leading-14">
-                        {{ title }}s
-                    </h1>
-                </div>
-                <div v-for="(alumniByLab, lab) in groupAlumniByLab(alumniCategories[title])" :key="lab" class="mb-4">
-                    <div v-if="lab" class="text-xs text-gray-400 mb-2">{{ lab }}</div>
-                    <div v-for="alum in alumniByLab" :key="alum.name" class="ml-4">
-                        <div class="font-bold">{{ alum.name }}</div>
-                        <div v-if="alum.start || alum.end" class="text-gray-500">
-                            <span v-if="alum.start">{{ alum.start }}</span>
-                            <span v-if="alum.start && alum.end"> - </span>
-                            <span v-if="alum.end">{{ alum.end }}</span>
-                        </div>
-                        <div v-if="alum.position" class="text-gray-600">{{ alum.position }}</div>
-                        <div v-else-if="alum.currentPosition" v-html="alum.currentPosition"></div>
-                    </div>
-                </div>
+    <div class="alumni-section my-6">
+        <div v-for="(alumniByLab, lab) in groupAlumniByLab(alumni)" :key="lab" class="mb-4">
+            <div v-if="lab" class="text-xs text-gray-400 mb-2">{{ lab }}</div>
+            <div v-for="alum in alumniByLab" :key="alum.name" class="ml-4">
+                <div class="font-bold">{{ alum.name }}</div>
+                <div v-if="alum.position" class="text-gray-600">{{ alum.position }}</div>
             </div>
         </div>
+    </div>
 </template>

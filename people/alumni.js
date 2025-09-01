@@ -3,124 +3,124 @@ export const alumni = [
     //lab: "From Leyao Wang Lab at Washington University in St. Louis",
     lab: "From Leyao Wang Lab at University of Maasachusetts Amherst",
     name: "Bailey Quinn, BS",
-    title: "Staff Member",
+    //title: "Staff Member",
     position: "Bioinformatics Research Assistant"
   },
   {
     lab: "From Leyao Wang Lab at Washington University in St. Louis",
     name: "Elizabeth Denn, MS",
-    title: "Staff Member",
+    //title: "Staff Member",
     position: "Research Technician II"
   },
   {
     lab: "From Leyao Wang Lab at Washington University in St. Louis",
     name: "Sandra Lee, MPH, RD",
-    title: "Staff Member",
+    //title: "Staff Member",
     position: "Public Health Research Coordinator"
   },
   {
     lab: "From Leyao Wang Lab at Washington University in St. Louis",
     name: "Run Zhang, MS",
-    title: "Staff Member",
+    //title: "Staff Member",
     position: "Bioinformatics Research Assistant"
   },
   {
     //lab: "From Leyao Wang Lab at Washington University in St. Louis",
     lab: "From Leyao Wang Lab at University of Maasachusetts Amherst",
     name: "Jill Mark",
-    title: "Undergraduate Researcher",
+    //title: "Undergraduate Researcher",
     position: "Washington University Undergraduate Student"
   },
   {
     lab: "From Leyao Wang Lab at Washington University in St. Louis",
     name: "Leran Wang, MS",
-    title: "Staff Member",
+    //title: "Staff Member",
     position: "Statistical Analyst"
   },
   {
     //lab: "From Leyao Wang Lab at Washington University in St. Louis",
     lab: "From Leyao Wang Lab at University of Maasachusetts Amherst",
     name: "Alison Chang, BS",
-    title: "Visiting Student",
+    //title: "Visiting Student",
     position: "Summer Intern",
   },
   {
     lab: "From Leyao Wang Lab at Washington University in St. Louis",
     name: "Savitri Grover, MS",
-    title: "Staff Member",
+    //title: "Staff Member",
     position: "Research Assistant",
   },
   {
     lab: "From Leyao Wang Lab at Washington University in St. Louis",
     name: "Laila Faramarzi, MS",
-    title: "Graduate Student",
+    //title: "Graduate Student",
     position: "Biostatistics Graduate Student"
   },
   {
     lab: "From Leyao Wang Lab at Washington University in St. Louis",
     name: "Lijuan Cao, PhD",
-    title: "Staff Member",
+    //title: "Staff Member",
     position: "Statistical Analyst"
   },
   {
     lab: "From Leyao Wang Lab at Washington University in St. Louis",
     name: "Josh Kim, BS",
-    title: "Staff Member",
+    //title: "Staff Member",
     position: "Research Technician II"
   },
   {
     lab: "From Leyao Wang Lab at Washington University in St. Louis",
     name: "Renjin Chen, PhD",
-    title: "Visiting Student",
+    //title: "Visiting Student",
     position: "Visiting Scholar",
   },
   {
     lab: "From Leyao Wang Lab at Washington University in St. Louis",
     name: "Ai Zhang, MS",
-    title: "Staff Member",
+    //title: "Staff Member",
     position: "Bioinformatics Research Assistant"
   },
   {
     lab: "From Leyao Wang Lab at Washington University in St. Louis",
     name: "Cheyenne Davis, BS",
-    title: "Staff Member",
+    //title: "Staff Member",
     position: "Research Technician II"
   },
   {
     lab: "From Leyao Wang Lab at Washington University in St. Louis",
     name: "Jason Li",
-    title: "Undergraduate Researcher",
+    //title: "Undergraduate Researcher",
     position: "WashU Undergraduate Student",
   },
   {
     lab: "From Leyao Wang Lab at Washington University in St. Louis",
     name: "Jasmina Duliman, BS",
-    title: "Undergraduate Researcher",
+    //title: "Undergraduate Researcher",
     position: "WashU Undergraduate Student",
   },
   {
     //lab: "From Leyao Wang Lab at Washington University in St. Louis",
     lab: "From Leyao Wang Lab at University of Maasachusetts Amherst",
     name: "Daniel Yang, BS",
-    title: "Staff Member",
+    //title: "Staff Member",
     position: "Research Technician II"
   },
   {
     lab: "From Leyao Wang Lab at Washington University in St. Louis",
     name: "Usma Rizvi",
-    title: "Undergraduate Researcher",
+    //title: "Undergraduate Researcher",
     position: "WashU Undergraduate Student",
   },
   {
     lab: "From Leyao Wang Lab at Washington University in St. Louis",
     name: "Ziyun Meng",
-    title: "Graduate Student",
+    //title: "Graduate Student",
     position: "WashU Brown School Graduate Student",
   },
   {
     lab: "From Leyao Wang Lab at University of Maasachusetts Amherst",
     name: "Christopher Camitta",
-    title: "Graduate Student",
+    //title: "Graduate Student",
     position: "WashU School of Medicine DBBS Program Graduate Student",
   },
 ];
