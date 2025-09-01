@@ -59,17 +59,19 @@ export default {
                 </transition>
             </p>
 
-            <!-- class="italic"
-            <div class="w-full flex flex-col items-center mb-4 mt-8">
-                <img src="/assets/people/team.png" alt="Team Photo" class="rounded-lg shadow-lg border border-gray-300 max-w-full h-auto" style="max-width: 700px; max-height: 500px; width: 100%; object-fit: cover;" />
+            <!-- class="italic" -->
+            <div class="w-full flex flex-col items-center mb-2 mt-5">
+                <img src="/assets/people/lab_first_day.jpg" alt="Lab Photo"
+                     class="rounded-lg shadow-lg border border-gray-300 max-w-full h-auto"
+                     style="max-width: 800px; max-height: 420px; width: 100%; object-fit: cover; margin-left: -50px;" />
             </div>
 
             <div class="w-full flex justify-center mb-0">
-                <div style="background: rgba(255,255,255,0.85); padding: 6px 18px; border-radius: 8px; font-size: 1rem; color: #374151; font-weight: 500; box-shadow: 0 2px 8px rgba(0,0,0,0.08); text-align: center;">
+                <div style="background: rgba(255,255,255,0.85); padding: 6px 18px; border-radius: 8px; font-size: 1rem;
+                    color: #374151; font-weight: 500; box-shadow: 0 2px 8px rgba(0,0,0,0.08); text-align: center;">
                     Our Team at Leyao Wang Lab
                 </div>
             </div>
-            -->
             
             <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-4 md:mt-6 lg:mt-5">
                 In the <strong>Leyao Wang lab</strong>, we integrated microbiology, immunology, 

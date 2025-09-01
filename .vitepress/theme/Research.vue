@@ -57,6 +57,8 @@ export default {
     color: #555;
     margin-top: 0.7rem;
     margin-bottom: 0.7rem;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .research-aims img {
     display: block;
