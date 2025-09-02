@@ -15,6 +15,13 @@ links:
     icon: "orcid"
 ---
 
+### Working Experience
+
+<ul>
+  <li>2024-2025 Assistant Professor, University of Massachusetts Amherst School of Public Health and Health Sciences, Amherst, Massachusetts, USA</li>
+  <li>2022-2024 Assistant Professor, Washington University School of Medicine, St. Louis, Missouri, USA</li>
+  <li>2018-2022 Instructor, Washington University School of Medicine, St. Louis, Missouri, USA</li>
+</ul>
 
 ### Education
 
@@ -24,12 +31,4 @@ links:
   <li>Postdoctoral Fellow, The Johns Hopkins Medical Institute, 2008-2010</li>
   <li>PhD, Fudan University, 2008</li>
   <li>BS, Nankai University, 2003</li>
-</ul>
-
-### Working Experience
-
-<ul>
-  <li>2018-2022 Instructor, Washington University School of Medicine, St. Louis, Missouri, USA</li>
-  <li>2022-2024 Assistant Professor, Washington University School of Medicine, St. Louis, Missouri, USA</li>
-  <li>2024-2025 Assistant Professor, University of Massachusetts Amherst School of Public Health and Health Sciences, Amherst, Massachusetts, USA</li>
 </ul>

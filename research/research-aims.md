@@ -23,4 +23,4 @@ We investigate how airway microbial communities contribute to asthma and other l
 
 ### Research Archivements
 
-Please refer to our [research page](https://sites.wustl.edu/leyaowanglab/research/) for a complete list of our research archivements on Washington University in St. Louis.
+Please refer to Dr. Wang lab's previous [research page](https://sites.wustl.edu/leyaowanglab/research/) for a complete list of our research archivements on Washington University in St. Louis.

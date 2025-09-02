@@ -2,14 +2,17 @@ export const alumni = [
   {
     lab: "From Leyao Wang Lab at University of Massachusetts Amherst",
     name: "Ruochen Wang",
+    position: "UMass Amherst Graduate Student",
   },
   {
     lab: "From Leyao Wang Lab at University of Massachusetts Amherst",
     name: "Domenic Barbati",
+    position: "UMass Amherst Graduate Student",
   },
   {
     lab: "From Leyao Wang Lab at University of Massachusetts Amherst",
     name: "Junru Zheng",
+    position: "Research Assistant",
   },
   {
     lab: "From Leyao Wang Lab at Washington University in St. Louis",
