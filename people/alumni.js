@@ -1,6 +1,11 @@
 export const alumni = [
   {
     lab: "From Leyao Wang Lab at SMART",
+    name: "Yikun Song",
+    position: "PhD Student",
+  },
+  {
+    lab: "From Leyao Wang Lab at SMART",
     name: "Hao Wang",
     position: "PhD Student",
   },
@@ -9,9 +14,4 @@ export const alumni = [
     name: "Xiaoqian Ma",
     position: "PhD Student",
   },
-  {
-    lab: "From Leyao Wang Lab at SMART",
-    name: "Yikun Song",
-    position: "PhD Student",
-  }
-];
+]
