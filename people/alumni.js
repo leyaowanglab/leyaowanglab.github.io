@@ -11,7 +11,7 @@ export const alumni = [
   },
   {
     lab: "From Leyao Wang Lab at SMART",
-    name: "Kunyi Song",
+    name: "Yikun Song",
     position: "PhD Student",
   }
 ];
