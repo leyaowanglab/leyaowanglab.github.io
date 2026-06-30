@@ -17,4 +17,4 @@ I am a PhD student in Global Area Studies at the Department of International Rel
 ### Research Fields
 
 - Environment Politics
-- Sustainable Development Problem
+- Sustainable Development problem
