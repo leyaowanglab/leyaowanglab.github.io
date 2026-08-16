@@ -1,6 +1,5 @@
 <script>
 import { data as people } from './people.data.js';
-import { alumni } from '../../people/alumni.js';
 import TeamMembers from './components/TeamMembers.vue';
 
 export default {
@@ -9,16 +8,14 @@ export default {
     },
     data() {
         const categorizedData = this.categorizeMembers(people);
-        const alumniByCategory = this.categorizeAlumni(alumni);
         let categories = Object.keys(categorizedData);
         // Move 'Principal Investigator' to the top if it exists
         categories = categories.filter(c => c !== 'Principal Investigator');
         categories.unshift('Principal Investigator');
+        
         return {
             categories,
-            membersByCategory: categorizedData,
-            alumniCategories: alumniByCategory,
-            alumni // expose alumni array to template
+            membersByCategory: categorizedData
         };
     },
     methods: {
@@ -32,26 +29,7 @@ export default {
                     acc[person.category].push(person);
                     return acc;
                 }, {});
-        },
-        categorizeAlumni(alumni) {
-            const titles = ["Postdoc", "Graduate Student", "Staff Member", "Undergraduate Researcher", "Visiting Student", "Rotating Student"];
-            const alumniCategories = {};
-            titles.forEach(title => {
-                alumniCategories[title] = alumni.filter(a => a.title === title);
-            });
-            return alumniCategories;
-        },
-        groupAlumniByLab(alumniList) {
-            if (!alumniList) return {};
-            const grouped = {};
-            alumniList.forEach(alum => {
-                const lab = alum.lab || "Other";
-                if (!grouped[lab]) grouped[lab] = [];
-                grouped[lab].push(alum);
-            });
-            return grouped;
         }
-
     }
 }
 </script>
@@ -74,19 +52,6 @@ export default {
             </div>
             <TeamMembers :members="membersByCategory[category]"
                 v-if="membersByCategory[category] && membersByCategory[category].length"></TeamMembers>
-        </div>
-    </div>
-    <h1
-        class="text-3xl leading-9 font-bold text-gray-800 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 border-t border-gray-200 pt-10">
-        Alumni
-    </h1>
-    <div class="alumni-section my-6">
-        <div v-for="(alumniByLab, lab) in groupAlumniByLab(alumni)" :key="lab" class="mb-4">
-            <div v-if="lab" class="text-xs text-gray-400 mb-2">{{ lab }}</div>
-            <div v-for="alum in alumniByLab" :key="alum.name" class="ml-4">
-                <div class="font-bold">{{ alum.name }}</div>
-                <div v-if="alum.position" class="text-gray-600">{{ alum.position }}</div>
-            </div>
         </div>
     </div>
 </template>
