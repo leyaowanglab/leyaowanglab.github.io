@@ -61,9 +61,11 @@ export default {
 
             <!-- class="italic" -->
             <div class="w-full flex flex-col items-center mb-2 mt-5">
-                <img src="/assets/people/lab_photo.jpg" alt="Lab Photo"
+                <video src="/assets/people/lab_video.mp4" poster="/assets/people/lab_video_poster.jpg"
+                     autoplay muted loop playsinline
+                     aria-label="Lab video"
                      class="rounded-lg shadow-lg border border-gray-300 max-w-full h-auto"
-                     style="max-width: 800px; max-height: 500px; width: 100%; object-fit: cover; margin-left: -50px;" />
+                     style="max-width: 800px; max-height: 500px; width: 100%; object-fit: cover; margin-left: -50px;"></video>
             </div>
 
             <div class="w-full flex justify-center mb-0">

@@ -1,7 +1,7 @@
 ---
 layout: person
 name: "Dianchen Li"
-image: "/assets/people/Dianchen-Li.jpg"
+image: "/assets/people/dianchen-li.webp"
 title: "Overseas Visiting Student"
 category: "Visiting Student"
 links:

@@ -66,7 +66,7 @@ The general file structure of this website is as follows:
 ├── README.md
 ├── people/ # <-------------- team members
 ├── papers/ # <-------------- papers
-├── posts/ # <-------------- news posts
+├── pictures/ # <-------------- photo gallery
 ├── projects/ # <-------------- projects and software
 ├── index.md
 ├── public/assets/ # <-------------- images (note that paths to this directory are simply /assets/)
@@ -77,7 +77,7 @@ The general file structure of this website is as follows:
 └── package-lock.json
 ```
 
-Any file ending `*.md` is converted to a page on the site. The main markdown content lives in the `people`, `papers`, `posts`, and `projects` directories. A page on the website is added for each `.md` file in these directories and a 'landing' page for each is updated accordingly. On each `*.md` page, there is `YAML` frontmatter that configures how the page is rendered and the content of that page.
+Any file ending `*.md` is converted to a page on the site. The main markdown content lives in the `people`, `papers`, and `projects` directories. A page on the website is added for each `.md` file in these directories and a 'landing' page for each is updated accordingly. The `pictures` directory holds image files that are displayed automatically in the Pictures gallery, so no markdown file is needed for each photo. On each `*.md` page, there is `YAML` frontmatter that configures how the page is rendered and the content of that page.
 
 ### Adding Team Members
 
@@ -131,32 +131,9 @@ export const alumni = [
 
 `currentPosition` is parsed as HTML so you can add hyperlinks to current positions.
 
-### Adding Blog Posts
+### Adding Pictures
 
-To add a blog post, you create a `*.md` file in the `posts/` directory. At the top of the page, add the following `YAML`:
-
-```yaml
----
-layout: post
-title: Example markdown styles
-date: 2024-04-17
-author: Leyao Wang 
----
-```
-
-The fields are self-explanatory; their values are visible on the Blog section of the website. Underneath this `YAML` frontmatter, add a short description followed by a `---`. This short description will appear as an excerpt on the Blog section of the website below the post.
-
-```md
----
-layout: post
-title: Example markdown styles
----
-
-Here's a short excerpt to appear as a description of the post in the blog index.
----
-```
-
-The content of the blog post is written using standard markdown syntax.
+To add photos to the gallery, place image files (`.jpg`, `.jpeg`, `.png`, `.gif`, `.webp`, `.svg`, or `.avif`) directly in the `pictures/` directory. The Pictures page scans this directory automatically and displays the files in the order of their names.
 
 ### Adding Papers
 

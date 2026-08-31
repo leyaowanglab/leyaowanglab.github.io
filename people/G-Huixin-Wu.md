@@ -1,8 +1,8 @@
 ---
 layout: person
 name: "Huixin Wu"
-image: "/assets/people/Huixin-Wu.png"
-title: "Research Assistant"
+image: "/assets/people/huixin-wu.webp"
+title: "Biological <br>Research Assistant"
 category: "Team Members"
 links:
   - link: "wuhuixin@smart.org.cn"

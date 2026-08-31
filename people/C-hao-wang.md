@@ -1,7 +1,7 @@
 ---
 layout: person
 name: "Hao Wang"
-image: "/assets/people/hao-wang.jpg"
+image: "/assets/people/hao-wang.webp"
 title: "PhD Student"
 category: "Team Members"
 links:

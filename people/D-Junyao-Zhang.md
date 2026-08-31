@@ -1,11 +1,11 @@
 ---
 layout: person
-name: "Chang Liu"
-image: "/assets/people/chang-liu.webp"
+name: "Junyao Zhang"
+image: "/assets/people/junyao-zhang.webp"
 title: "PhD Student"
 category: "Team Members"
 links:
-  - link: "liu.c.work@outlook.com"
+  - link: "zhangjunyao@smart.org.cn"
     icon: "email"
 ---
 

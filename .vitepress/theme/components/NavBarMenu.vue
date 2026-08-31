@@ -20,7 +20,7 @@ export default {
             { text: 'Papers', href: '/papers/', active: currentPath.value.startsWith('papers/') },
             { text: 'Team', href: '/people/', active: currentPath.value.startsWith('people/') },
             /*{ text: 'Software', href: '/projects/', active: currentPath.value.startsWith('projects/') },*/
-            { text: 'News', href: '/posts/', active: currentPath.value.startsWith('posts/') },
+            { text: 'Pictures', href: '/pictures/', active: currentPath.value.startsWith('pictures/') },
             { text: 'Join Us', href: '/join/', active: currentPath.value.startsWith('join/') },
         ]);
 

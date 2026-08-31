@@ -11,9 +11,14 @@ export default {
             required: true
         }
     },
+    computed: {
+        clickable() {
+            return this.member.name === 'Leyao Wang (PhD,MPH)';
+        }
+    },
     methods: {
         navigate(url) {
-            if (url) {
+            if (this.clickable && url) {
                 window.location.href = url;
             }
         }
@@ -24,8 +29,8 @@ export default {
 <template>
     <article
         class="hover:shadow-lg hover:shadow-custom-orange flex flex-col gap-px rounded-lg w-full h-full overflow-hidden transition-shadow duration-300 ease-in-out">
-        <div :href="member.url" class="py-6 px-4 sm:py-8 sm:px-6 flex-grow bg-custom-soft cursor-pointer"
-            @click="navigate(member.url)">
+        <div :href="member.url" class="py-6 px-4 sm:py-8 sm:px-6 flex-grow bg-custom-soft"
+            :class="{ 'cursor-pointer': clickable }" @click="navigate(member.url)">
             <figure class="relative shrink-0 mx-auto w-36 h-36 rounded-full overflow-hidden shadow">
                 <img class="absolute inset-0 w-full h-full object-cover" :src="member.image" :alt="member.name" />
             </figure>
@@ -34,9 +39,7 @@ export default {
                     {{ member.name }}
                 </h1>
                 <p v-if="member.title" class="m-0 font-medium text-gray-600 pt-1 text-base">
-                    <span v-if="member.title">
-                        {{ member.title }}
-                    </span>
+                    <span v-if="member.title" v-html="member.title"></span>
                 </p>
                 <p v-if="member.desc" class="m-0 mx-auto pt-4 max-w-[18rem] text-base" v-html="member.desc"></p>
                 <div v-if="member.links" class="flex justify-center h-14 m-[-1rem -4rem -3rem] pt-4 px-3">

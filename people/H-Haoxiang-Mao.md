@@ -1,8 +1,8 @@
 ---
 layout: person
 name: "Haoxiang Mao"
-image: "/assets/people/Haoxiang-Mao.png"
-title: "Research Assistant"
+image: "/assets/people/haoxiang-mao.webp"
+title: "Biological <br>Research Assistant"
 category: "Team Members"
 links:
   - link: "1213913406@qq.com"

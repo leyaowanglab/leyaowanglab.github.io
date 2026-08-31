@@ -1,8 +1,8 @@
 ---
 layout: person
 name: "Zongsheng Zhang"
-image: "/assets/people/Zongsheng-Zhang.png"
-title: "Research Assistant"
+image: "/assets/people/zongsheng-zhang.webp"
+title: "Bioinformatics <br>Research Assistant"
 category: "Team Members"
 links:
   - link: "zhangzongsheng@smart.org.cn"

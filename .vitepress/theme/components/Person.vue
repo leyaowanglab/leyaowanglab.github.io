@@ -28,9 +28,7 @@ export default {
                     {{ frontmatter.name }}
                 </h1>
                 <div class="mt-1">
-                    <h2 class="text-gray-600 font-light text-xl">
-                        {{ frontmatter.title }}
-                    </h2>
+                    <h2 class="text-gray-600 font-light text-xl" v-html="frontmatter.title"></h2>
                 </div>
                 <div v-if="frontmatter.links" class="inline-flex space-x-2 mt-1">
                     <SocialLink class="inline" v-for="{ link, icon } in frontmatter.links" :key="link" :icon="icon"

@@ -1,7 +1,7 @@
 ---
 layout: person
 name: "Florence Chen"
-image: "/assets/people/Florence-Chen.png"
+image: "/assets/people/wenjun-chen.webp"
 title: "Lab Manager"
 category: "Team Members"
 links:
