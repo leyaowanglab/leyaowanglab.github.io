@@ -11,12 +11,22 @@ import Nav from './components/Nav.vue'
 import Footer from './components/Footer.vue'
 import Research from './Research.vue';
 import Join from './Join.vue';
+import Maintenance from './Maintenance.vue';
+
+// Maintenance mode: set to true to take the entire site offline.
+const UNDER_MAINTENANCE = true;
 
 const { page, frontmatter } = useData()
 </script>
 
 <template>
-  <div id="app" class="flex flex-col min-h-screen">
+  <div v-if="UNDER_MAINTENANCE" id="app" class="flex flex-col min-h-screen">
+    <main class="flex-1">
+      <Maintenance />
+    </main>
+    <Footer></Footer>
+  </div>
+  <div v-else id="app" class="flex flex-col min-h-screen">
     <Nav class="mb-4"></Nav>
     <main class="flex-1 max-w-3xl mx-auto px-4 sm:px-6 lg:max-w-5xl xl:px-0">
       <!-- Render the Landing page -->
