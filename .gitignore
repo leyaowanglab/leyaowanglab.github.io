@@ -16,3 +16,7 @@ dist/
 
 # Vscode config
 .vscode/
+
+# Local SSH deploy key (never commit)
+.gh-key/
+*.pem
