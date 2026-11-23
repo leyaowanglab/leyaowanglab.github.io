@@ -14,7 +14,7 @@ import Join from './Join.vue';
 import Maintenance from './Maintenance.vue';
 
 // Maintenance mode: set to true to take the entire site offline.
-const UNDER_MAINTENANCE = true;
+const UNDER_MAINTENANCE = false;
 
 const { page, frontmatter } = useData()
 </script>
