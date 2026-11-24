@@ -5,6 +5,16 @@ export default defineConfig({
   description: "Leyao lab at SMART focuses on human microbiome and diseases.",
   appearance: false,
   ignoreDeadLinks: true,
+  // On Windows, watching public/ with fs.watch can throw EBUSY when an image
+  // file is briefly locked, which kills the dev server. Run with
+  // PREVIEW_POLLING=1 to switch to polling and avoid that crash.
+  vite: {
+    server: {
+      watch: {
+        usePolling: process.env.PREVIEW_POLLING === "1",
+      },
+    },
+  },
   head: [
     [
       "meta",
